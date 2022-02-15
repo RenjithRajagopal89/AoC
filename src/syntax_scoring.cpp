@@ -20,7 +20,7 @@ namespace navigation {
             lines.push_back(line);
             //cout << "Line is :" << line <<"\n";
         }
-
+        infile.close();
         return lines;
     }
 
