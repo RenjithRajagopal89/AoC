@@ -11,8 +11,8 @@ Advent of Code aka AoC is an annual Advent calendar of small programming puzzles
 
 ## Method and results
 
-Program named 'syntax_scoring' accepts paramter as file where inputs are provided.Once executed, program outputs the total syntax score found for corresponding
-input.
+After successful compilation,a program named 'syntax_scoring' accepts parameter as file where inputs are provided.Once executed, program outputs the total syntax score found for corresponding input.
+
 Program assume following input factors
 * Input contains only combination of 8-characters {,},[,],(,),<,> 
 * Syntax total score falls in range that std::uint64_t can accomodate
