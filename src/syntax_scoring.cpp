@@ -41,7 +41,7 @@ namespace navigation {
 
     std::uint64_t RetriveSyntaxScore(const std::string& file_path) {
 
-        std::map<std::int8_t,std::int8_t> open_close_characters =
+        const std::map<std::int8_t,std::int8_t> open_close_characters =
         {
             {']', '['},
             {'}', '{'},
