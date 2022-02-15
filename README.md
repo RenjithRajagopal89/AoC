@@ -19,15 +19,15 @@ Program assume following input factors
 
 ### Host Machine/Processor/OS/Compiler/IDE used 
 
-Processor - 64-bit Intel(R) Core(TM) i7-6920HQ CPU @ 2.90GHz
-OS - UBUNTU 18.04 LTS/x86_64
-GCC or G++ version - gcc version 7.5.0
-IDE - Visual Studio Code https://code.visualstudio.com/
+* Processor - 64-bit Intel(R) Core(TM) i7-6920HQ CPU @ 2.90GHz
+* OS - UBUNTU 18.04 LTS/x86_64
+* GCC or G++ version - gcc version 7.5.0
+* IDE - Visual Studio Code https://code.visualstudio.com/
 
 ## Repository overview
 
 Overview of the directory structure and files
-
+```
 ├── README.md
 └── src
     ├── syntax_scoring  --> Final executable binary 
@@ -38,7 +38,7 @@ Overview of the directory structure and files
         ├── input_sample_3.txt
         ├── input_sample_4.txt
         └── input_sample_5.txt
-
+```
 
 ## Running instructions
 1. Open source in VS code(.vscode is included as it has tasks.json which configures GCC and binary executable name)
